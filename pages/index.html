@@ -35,14 +35,18 @@
               </ul>
             </div>
             <div>
-              <span class="material-symbols-outlined align-bottom me-4">
-                search
-              </span>
+              <a href="#">
+                <span class="material-symbols-outlined align-bottom me-4">
+                  search
+                </span>
+              </a>
             </div>
             <div>
-              <span class="material-symbols-outlined align-bottom">
-                notifications_active
-              </span>
+              <a href="#">
+                <span class="material-symbols-outlined align-bottom">
+                  notifications_active
+                </span>
+              </a>
             </div>
           </div>
         </header>
@@ -56,20 +60,19 @@
                 </span>
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
+                <li><a class="dropdown-item">Chapter Assignment 2</a></li>
                 <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
                 <li><a class="dropdown-item" href="#">Final Assignment</a></li>
                 <li><a class="dropdown-item" href="#">Final Assignment</a></li>
               </ul>
             </div>
-            <small class="fz-12 text-secondary">2 comments</small>
+            <a href="#"><small class="fz-12 text-secondary">2 comments</small></a>
           </section>
 <!-- list-group -->
           <div class="row">
             <div class="col-4">
               <section class="list-group">
-
-                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light" aria-current="true">
                   <div class="d-flex w-100 justify-content-between">
                     <small class="mb-1 fz-12">Chapter Assignment 2</small>
                     <small class="fz-12">4 hrs ago</small>
@@ -122,9 +125,11 @@
                     <small class="fz-12 text-secondary">Chapter Assignment 2 / HTML&CSS</small>
                     <h5>Please check this file for me, thanks!</h5>
                   </div>
-                  <span class="material-symbols-outlined">
-                    more_vert
-                  </span>
+                  <a href="#">
+                    <span class="material-symbols-outlined">
+                      more_vert
+                    </span>
+                  </a>
                 </div>
                 <div class="card-body">
                   <div class="d-flex">
@@ -149,8 +154,26 @@
                       <img class="rounded-circle object-fit-cover" src="../assets/images/andychen.jpeg" width="40" height="40" alt="andychen jpeg">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <p class="fw-bold">Andy Chen (You)</p>
-                      <a class="text-secondary" href="mailto:andy0401@mail.com">13:24 AM (1 hours ago)</a>
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <p class="fw-bold">Andy Chen (You)</p>
+                          <a class="text-secondary" href="mailto:andy0401@mail.com">13:24 AM (1 hours ago)</a>
+                        </div>
+                        <div>
+                          <a href="#" class="me-4">
+                            <span class="material-symbols-outlined unfilled">
+                              star_rate
+                              </span> 
+                          </a>
+                          <a href="#">
+                            <span class="material-symbols-outlined">
+                              edit
+                            </span>   
+                          </a>
+
+                            
+                        </div>
+                      </section>
                       <p class="card-text mt-3">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
                       <p class="mt-4">You can: 　</p>
                       <p class="mt-4">&emsp;• adjust the <code>vertical-align</code>&emsp;&emsp;of the image to position it elsewhere (e.g. the <code>middle</code>&emsp;&emsp;) or</p>
@@ -159,22 +182,22 @@
                   </div>
                 </div>
               </section>
-              <section class="d-flex mt-4 justify-content-between">
+              <section class="d-flex mt-4 justify-content-between align-items-center">
                 <div>
                   <a href="#">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined pt-2">
                       chevron_left
                     </span>
                   </a>
                   <a href="#">
-                    <span class="material-symbols-outlined ml23">
+                    <span class="material-symbols-outlined pt-2 ml23">
                       chevron_right
                     </span>
                   </a>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
-                  <button type="button" class="btn btn-success">Reply</button>
+                  <button type="button" class="btn btn-outline-success py-2 px-5 me-3">Mark as read</button>
+                  <button type="button" class="btn btn-success py-2 px-5">Reply</button>
                 </div>
               </section>
             </div>
