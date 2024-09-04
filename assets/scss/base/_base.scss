@@ -26,3 +26,7 @@ body {
   p {
     margin-bottom: 0;
   }
+
+  .dropdown-toggle.default-icon-clear::after {
+    display: none;
+}
