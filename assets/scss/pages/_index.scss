@@ -2,3 +2,15 @@
   width: calc(100% - 296px);
   margin-left: auto;
 }
+
+.editor{
+  textarea{
+    resize: none;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  textarea::placeholder{
+    color : $gray-400;
+  }
+}

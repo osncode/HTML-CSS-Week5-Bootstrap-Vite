@@ -72,6 +72,7 @@
           <div class="row">
             <div class="col-4">
               <section class="list-group">
+  <!-- list-group-item-1 -->
                 <a href="#" class="list-group-item list-group-item-action list-group-item-light" aria-current="true">
                   <div class="d-flex w-100 justify-content-between">
                     <small class="mb-1 fz-12">Chapter Assignment 2</small>
@@ -82,7 +83,7 @@
                     <small class="fz-12 text-secondary">Emily Wang</small>
                   </div>
                 </a>
-
+  <!-- list-group-item-2 -->
                 <a href="#" class="list-group-item list-group-item-action">
                   <div class="d-flex w-100 justify-content-between">
                     <small class="mb-1 fz-12">Chapter Assignment 1</small>
@@ -92,8 +93,8 @@
                     <h6 class="mb-1 fw-bold">My Homework</h6>
                     <small class="fz-12 text-secondary">David Xu</small>
                   </div>
-                </a>
-
+                </a>    
+  <!-- list-group-item-3 -->
                 <a href="#" class="list-group-item list-group-item-action">
                   <div class="d-flex w-100 justify-content-between">
                     <small class="mb-1 fz-12">Final Assignment</small>
@@ -104,7 +105,7 @@
                     <small class="fz-12 text-secondary pt-1">Tony Wei</small>
                   </div>
                 </a>
-
+  <!-- list-group-item-4 -->
                 <a href="#" class="list-group-item list-group-item-action">
                   <div class="d-flex w-100 justify-content-between">
                     <small class="mb-1 fz-12">Final Assignment</small>
@@ -131,7 +132,7 @@
                     </span>
                   </a>
                 </div>
-                <div class="card-body">
+                <div class="card-body position-relative">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img class="rounded-circle object-fit-cover" src="../assets/images/emilywang.jpeg" width="40" height="40" alt="emilywang jpeg">
@@ -148,7 +149,6 @@
                       </a>
                     </div>
                   </div>
-
                   <div class="d-flex mt-3">
                     <div class="flex-shrink-0">
                       <img class="rounded-circle object-fit-cover" src="../assets/images/andychen.jpeg" width="40" height="40" alt="andychen jpeg">
@@ -170,14 +170,43 @@
                               edit
                             </span>   
                           </a>
-
-                            
                         </div>
                       </section>
                       <p class="card-text mt-3">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
                       <p class="mt-4">You can: 　</p>
                       <p class="mt-4">&emsp;• adjust the <code>vertical-align</code>&emsp;&emsp;of the image to position it elsewhere (e.g. the <code>middle</code>&emsp;&emsp;) or</p>
                       <p>&emsp;• change the <code>display</code>&emsp; so it isn’t inline.</p>
+                    </div>
+                  </div>
+<!-- collapse -->
+                  <div class="collapse position-absolute bottom-0 end-0 w-100" id="collapseExample">
+                    <div class="card h-313 d-flex flex-column justify-content-between align-items-start">
+                      <div class="card-header w-100 py-0">
+                        <div class="dropdown d-flex align-items-center">
+                          <button class="btn dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Body Text
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Body Text</a></li>
+                            <li><a class="dropdown-item" href="#">LATO</a></li>
+                            <li><a class="dropdown-item" href="#">ROBOTO MONO</a></li>
+                          </ul>
+                          <span class="material-symbols-outlined ms-5">format_bold</span>
+                          <span class="material-symbols-outlined ms-5">format_italic</span>
+                          <span class="material-symbols-outlined ms-5">format_list_bulleted</span>
+                          <span class="material-symbols-outlined ms-5">format_list_numbered</span>
+                          <span class="material-symbols-outlined ms-5">image</span>
+                          <span class="material-symbols-outlined ms-5">attachment</span>
+                          <span class="material-symbols-outlined ms-5">code</span>
+                        </div>
+                      </div>
+                      <div class="editor h-100 w-100">
+                        <textarea class="ps-3 pt-3" rows="7" placeholder="Reply an answer…"></textarea>
+                      </div>
+                      <div class="ms-auto pb-3 pe-4">
+                        <button type="button" class="btn btn-outline-success py-2 px-5 me-2" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
+                        <button type="button" class="btn btn-success py-2 px-5">Reply</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -197,7 +226,7 @@
                 </div>
                 <div>
                   <button type="button" class="btn btn-outline-success py-2 px-5 me-3">Mark as read</button>
-                  <button type="button" class="btn btn-success py-2 px-5">Reply</button>
+                  <button type="button" class="btn btn-success py-2 px-5" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Reply</button>
                 </div>
               </section>
             </div>
