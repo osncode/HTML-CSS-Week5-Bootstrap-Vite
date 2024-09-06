@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>第五週主線任務-Bootstrap-Vite</title>
+  </head>
+  <body>
+    <div class="d-flex vh-100">
+        <%- include('./layout/aside'); -%>
+        <div class=" width-content pt-5 px-5">
+            <header class="navbar navbar-expand align-items-start">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                  <a class="navbar-brand fw-bold fs-4 mr-50" href="#">Admin</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown d-flex align-items-center">
+                        <span class="material-symbols-outlined text-success me-2">
+                         add
+                        </span>
+                        <button class="btn dropdown-toggle fw-bold default-icon-clear" data-bs-toggle="dropdown" aria-expanded="false">
+                         Add New Admin
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Vue</a></li>
+                          <li><a class="dropdown-item" href="#">React</a></li>
+                          <li><a class="dropdown-item" href="#">Angular</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <span class="material-symbols-outlined align-bottom me-4">
+                        search
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <span class="material-symbols-outlined align-bottom">
+                        notifications_active
+                      </span>
+                    </a>
+                  </div>
+                </div>
+            </header>
+<!-- table -->
+            <table class="table admin-table">
+                <thead>
+                <tr>
+                    <th scope="col">ID
+                        <span class="material-symbols-outlined text-success align-bottom">
+                        arrow_downward
+                        </span>
+                    </th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Verified</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">#1</th>
+                    <td>Emir Wicks</td>
+                    <td>emir.wicks@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                       <span class="material-symbols-outlined">
+                         visibility
+                       </span>
+                    </td>
+                    <td class="td-icon">
+                        <span class="material-symbols-outlined">
+                         edit
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">#2</th>
+                    <td>Zaina Goldsmith</td>
+                    <td>zaina.goldsmith@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#3</th>
+                    <td>Mahima Lopez</td>
+                    <td>mahima.lopez@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#4</th>
+                    <td>Pharrell Murray</td>
+                    <td>pharrell.murray@mail.com/td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#5</th>
+                    <td>Annika Mcbride</td>
+                    <td>annika.mcbride@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#6</th>
+                    <td>Fatimah Clark</td>
+                    <td>fatimah.clark@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#7</th>
+                    <td>Klaudia Rhodes</td>
+                    <td>klaudia.rhodes@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#8</th>
+                    <td>Tillie Lucero</td>
+                    <td>tillie.lucero@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#9</th>
+                    <td>Sabrina Stephenson</td>
+                    <td>sabrina.stephenson@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                <tr>
+                    <th scope="row">#10</th>
+                    <td>Annie Smith</td>
+                    <td>annie.smith@mail.com</td>
+                    <td>Yes</td>
+                    <td class="td-icon me-4">
+                        <span class="material-symbols-outlined">
+                          visibility
+                        </span>
+                     </td>
+                     <td class="td-icon">
+                         <span class="material-symbols-outlined">
+                          edit
+                         </span>
+                     </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script type="module" src="../main.js"></script>
+</body>
+</html>
