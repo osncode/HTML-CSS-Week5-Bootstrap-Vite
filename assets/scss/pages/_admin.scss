@@ -1,0 +1,12 @@
+.default-color{
+    color: $success;
+}
+
+.default-color:hover{
+    color: $white;
+}
+
+.current-color{
+    background: $success;
+    color: $white;
+}
