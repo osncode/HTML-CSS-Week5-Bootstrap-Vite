@@ -1,37 +1,37 @@
 <aside class="navbar bg-light vh-100 w-296 pb-5 position-fixed">
-  <div class="container-fluid flex-column align-items-start h-100 ps-5">
-    <section>
-      <a class="navbar-brand mb-42 mt-6" href="#"><img src="../assets/images/logo-ANSWER.svg" alt="logo"></a>
-      <ul class="navbar-nav flex-column h-auto">
-        <li class="nav-item">
-          <a class="mb-26 fw-bold " href="#">
+  <div class="container-fluid px-0 flex-column align-items-start h-100">
+    <section class="w-100">
+      <a class="navbar-brand mb-42 mt-6 pl-36" href="#"><img src="../assets/images/logo-ANSWER.svg" alt="logo"></a>
+      <ul class="navbar-nav aside-nav flex-column h-auto">
+        <li class="nav-item mb-14">
+          <a class="fw-bold pl-36" href="#">
             <span class="material-symbols-outlined align-bottom me-3">
             insert_chart</span>Dashboard</a>
         </li>
-        <li class="nav-item">
-          <a class="mb-26 fw-bold" href="#">
+        <li class="nav-item mb-14">
+          <a class="fw-bold pl-36" href="#">
             <span class="material-symbols-outlined align-bottom me-3">
               question_answer</span>Question</a>
         </li>
-        <li class="nav-item">
-          <a class="mb-26 fw-bold" href="index.html"><span class="material-symbols-outlined align-bottom me-3">assignment</span>Assignment</a>
+        <li class="nav-item border-start border-4 mb-14 <%= page === 'assignment' ? 'border-success text-success' : '' %>" aria-current="page">
+          <a class="ps-5 fw-bold" href="index.html"><span class="material-symbols-outlined align-bottom me-3">assignment</span>Assignment</a>
         </li>
-        <li class="nav-item">
-          <a class="mb-26 fw-bold" href="#">
+        <li class="nav-item mb-14">
+          <a class="fw-bold pl-36" href="#">
             <span class="material-symbols-outlined align-bottom me-3">video_library</span>Course</a>
         </li>
-        <li class="nav-item">
-          <a class="mb-26 fw-bold" href="admin.html">
+        <li class="nav-item border-start border-4 mb-14 <%= page === 'admin' ? 'border-success text-success' : '' %>" aria-current="page">
+          <a class="ps-5 fw-bold" href="admin.html">
             <span class="material-symbols-outlined align-bottom me-3">supervisor_account</span>Admin</a>
         </li>
-        <li class="nav-item">
-          <a class="mb-26 fw-bold" href="#">
+        <li class="nav-item mb-14">
+          <a class="fw-bold pl-36" href="#">
             <span class="material-symbols-outlined align-bottom me-3">settings</span>Settings</a>
         </li>
       </ul>
     </section>
     <section>
-      <div class="d-flex">
+      <div class="d-flex pl-36">
         <div class="flex-shrink-0">
           <img class="rounded-circle object-fit-cover" src="../assets/images/andychen.jpeg" width="40" height="40" alt="andychen jpeg">
         </div>

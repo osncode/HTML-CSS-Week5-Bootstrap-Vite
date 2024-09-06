@@ -1,5 +1,5 @@
-.mb-26{
-    margin-bottom: 26px;
+.mb-14{
+    margin-bottom: 14px;
 }
 
 .mb-42{
@@ -24,4 +24,14 @@
 
 .h-313{
     height: 313px;
+}
+
+.pl-36{
+    padding-left: 36px;
+}
+
+.hover-color{
+    &:hover{
+        color: $success;
+    }
 }
