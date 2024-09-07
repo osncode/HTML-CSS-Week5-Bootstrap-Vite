@@ -1330,8 +1330,10 @@ $pagination-margin-start:           calc(#{$pagination-border-width} * -1) !defa
 $pagination-border-color:           $success !default;
 
 $pagination-focus-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-focus-bg:               var(--#{$prefix}secondary-bg) !default;
-$pagination-focus-box-shadow:       $focus-ring-box-shadow !default;
+// $pagination-focus-bg:               var(--#{$prefix}secondary-bg) !default;
+$pagination-focus-bg:               $gray-200 !default;
+// $pagination-focus-box-shadow:       $focus-ring-box-shadow !default;
+$pagination-focus-box-shadow:       false !default;
 $pagination-focus-outline:          0 !default;
 
 // $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
@@ -1349,7 +1351,8 @@ $pagination-disabled-color:         var(--#{$prefix}secondary-color) !default;
 $pagination-disabled-bg:            var(--#{$prefix}secondary-bg) !default;
 $pagination-disabled-border-color:  var(--#{$prefix}border-color) !default;
 
-$pagination-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+// $pagination-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$pagination-transition:              false !default;
 
 $pagination-border-radius-sm:       var(--#{$prefix}border-radius-sm) !default;
 $pagination-border-radius-lg:       var(--#{$prefix}border-radius-lg) !default;
