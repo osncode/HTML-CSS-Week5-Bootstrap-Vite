@@ -27,3 +27,9 @@
         color: $success;
     }
 }
+
+.btn-icon-transform.collapsed{
+    .material-symbols-outlined {
+        transform: scaleY(-1);
+    }
+}

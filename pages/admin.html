@@ -534,20 +534,26 @@
                         </div>
                         <div class="d-flex justify-content-between mt-auto align-items-center">
                             <h7 class="bg-light py-1 px-2">Verified</h7>
-                            <span class="material-symbols-outlined text-success align-bottom">
-                                expand_more
-                            </span>
-                        </div>
 
+                            <button class="btn border-clear btn-icon-transform" type="button" data-bs-toggle="collapse" data-bs-target="#view-collapse" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="material-symbols-outlined text-success align-bottom">
+                                    expand_more
+                                </span>
+                            </button>
+                        </div>
                     </section>
                 </div>
-                <div class="d-flex ms-auto">
-                <button type="button" class="btn btn-outline-danger fw-bold py-2 px-5 me-3" data-bs-dismiss="modal">Deactivate</button>
-                <button type="button" class="btn btn-success fw-bold py-2 px-5">Edit</button>
+            <!-- view collapse -->
+                <div class="collapse" id="view-collapse">
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-outline-danger fw-bold py-2 px-5 me-3 ms-auto" data-bs-dismiss="modal">Deactivate</button>
+                        <button type="button" class="btn btn-success fw-bold py-2 px-5">Edit</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script type="module" src="../main.js"></script>
 </body>
 </html>
