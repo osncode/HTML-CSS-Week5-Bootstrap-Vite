@@ -16,3 +16,14 @@
         background: $light;
     }
 }
+
+.width-profile{
+    width: calc(100% - 141px);
+}
+
+.view-mail-link{
+    color: $gray-600;
+    &:hover{
+        color: $success;
+    }
+}
