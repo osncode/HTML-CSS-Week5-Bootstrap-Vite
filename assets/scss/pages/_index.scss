@@ -18,3 +18,9 @@
 .card-header{
   background: #fcfcfd;
 }
+
+.btn-icon-transform.show{
+  .material-symbols-outlined {
+      transform: scaleY(-1);
+  }
+}
